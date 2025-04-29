@@ -1,4 +1,4 @@
-'use strict'
+'use strict' //enable strict mode for better error handling and debugging
 
 // Import required modules
 const path = require('path') // Module to handle and transform file paths
