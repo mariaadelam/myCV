@@ -46,7 +46,8 @@ module.exports = {
   plugins: [
     // Plugin to generate an HTML file and inject resources
     new HtmlWebpackPlugin({
-      hash: true, // Add a unique hash to resources for cache busting
+      hash: true, // Add a unique hash to resources for cache busting,
+      //ensuring that browsers load the latest version of the files
       favicon: favicon, // Add the favicon
       myHeader: myHeader, // Inject the header content
       myBanner: myBanner, // Inject the banner content
@@ -62,7 +63,7 @@ module.exports = {
     }),
     // Plugin to extract CSS into a separate file
     new miniCssExtractPlugin({
-      filename: 'css/main.css' // Name of the output CSS file
+      filename: 'css/main.css'
     }),
     // Plugin to copy files and directories to the output directory
     new CopyWebpackPlugin({
@@ -108,7 +109,9 @@ module.exports = {
       },
       {
         // Rule for processing font files
-        test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/i,
+        test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/i, 
+        //regular expression used to match font file extensions
+        //The i flag makes the regex case-insensitive
         type: 'asset/resource',
         generator: {
           filename: 'fonts/[name][ext][query]' // Output file naming pattern for fonts
