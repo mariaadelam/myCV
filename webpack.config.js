@@ -17,7 +17,7 @@ const paths = {
 };
 
 // Define paths for additional resources
-const favicon = path.resolve(paths.source, 'images', 'favicon.ico'); // Path to the favicon
+const favicon = path.resolve(paths.source, 'assets/images', 'favicon.ico'); // Path to the favicon
 const myHeader = fs.readFileSync(paths.source + '/views/header.html'); // Read the header HTML file
 const myBanner = fs.readFileSync(paths.source + '/views/banner.html'); // Read the banner HTML file
 const myAbout = fs.readFileSync(paths.source + '/views/about.html'); // Read the about section HTML file
@@ -69,21 +69,21 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: path.resolve(paths.source, 'images'), // Source directory for images
-          to: path.resolve(paths.output, 'images'), // Destination directory for images
+          from: path.resolve(paths.source, 'assets/images'), // Source directory for images
+          to: path.resolve(paths.output, 'assets/images'), // Destination directory for images
           toType: 'dir',
           globOptions: {
             ignore: ['*.DS_Store', 'Thumbs.db'], // Ignore unnecessary files
           },
         },
-        {
-          from: path.resolve(paths.source, 'lang'), // Source directory for language files
-          to: path.resolve(paths.output, 'lang'), // Destination directory for language files
-          toType: 'dir',
-          globOptions: {
-            ignore: ['*.DS_Store', 'Thumbs.db'], // Ignore unnecessary files
-          },
-        },
+        // {
+        //   from: path.resolve(paths.source, 'lang'), // Source directory for language files
+        //   to: path.resolve(paths.output, 'lang'), // Destination directory for language files
+        //   toType: 'dir',
+        //   globOptions: {
+        //     ignore: ['*.DS_Store', 'Thumbs.db'], // Ignore unnecessary files
+        //   },
+        // },
         // Uncomment the following block to copy video files
         // {
         //     from: path.resolve(paths.source, 'videos'),
