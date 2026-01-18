@@ -20566,7 +20566,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #009688;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -20578,7 +20578,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #298eff;
+  background: #6bbeb6;
   color: #fff;
 }
 
@@ -20631,7 +20631,7 @@ a:hover {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
 }
 
 #header.header-scrolled {
@@ -20982,13 +20982,13 @@ a:hover {
   letter-spacing: 0.25rem;
 }
 .intro-content .button:hover {
-  border-color: #cc005f;
-  box-shadow: 0 0 0 2px #cc005f;
+  border-color: #009688;
+  box-shadow: 0 0 0 2px #009688;
   background-color: transparent;
   color: #fff;
 }
 .intro-content .button:focus {
-  border-color: #cc005f;
+  border-color: #009688;
   background-color: transparent;
 }
 .intro-content .button::after {
@@ -21019,9 +21019,9 @@ a:hover {
 }
 
 .social-icon {
-  border: 1px solid #04b962;
+  border: 1px solid #009688;
   border-radius: 8px 2px;
-  color: #04b962;
+  color: #009688;
   display: block;
   height: 32px;
   margin-right: 5px;
@@ -21224,7 +21224,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: rgba(0, 0, 0, 0.9);
 }
 footer .copyright {
   margin-bottom: 0.3rem;
@@ -21660,7 +21660,7 @@ footer .credits a {
   padding: 10px 15px;
 }
 .php-email-form input:focus {
-  border-color: #cc005f;
+  border-color: #009688;
 }
 .php-email-form textarea {
   border-radius: 0;
@@ -21670,7 +21670,7 @@ footer .credits a {
   margin-bottom: 0;
 }
 .php-email-form textarea:focus {
-  border-color: #cc005f;
+  border-color: #009688;
 }
 .php-email-form button[type=submit] {
   background: #0078ff;
@@ -21702,7 +21702,7 @@ footer .credits a {
 }
 .sidebar-search .btn-search {
   background-color: #cc005f;
-  border-color: #cc005f;
+  border-color: #009688;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
