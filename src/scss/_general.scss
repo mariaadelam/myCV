@@ -204,12 +204,12 @@ a {
 }
 .box-shadow-a {
   text-decoration: none;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #27cc9b;
 }
 .button {
   &:hover {
     text-decoration: none;
-    box-shadow: 0 0 0 3px #cde1f8;
+    box-shadow: 0 0 0 3px #95dad6;
     background-color: $background-color_6;
     color: $color_5;
     transition: all 500ms ease;

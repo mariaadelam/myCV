@@ -10,7 +10,7 @@
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 990;
+  z-index: 990; // Ensure particles animation is overlaying on top of my banner background but behind the text
 }
 .hero {
   height: 100vh;
