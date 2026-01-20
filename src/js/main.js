@@ -104,6 +104,23 @@
         onscroll(document, toggleBacktotop)
     }
 
+        /**
+     * Animate the skills items on reveal
+     */
+    let skillsAnimation = document.querySelectorAll('.skills-animation');
+    skillsAnimation.forEach((item) => {
+        new Waypoint({ 
+            element: item, 
+            offset: '80%', // Trigger when the element is 80% from the top of the viewport
+            handler: function (direction) { 
+                let progress = item.querySelectorAll('.progress .progress-bar'); // Select all progress bars within the skills-animation item
+                progress.forEach(el => {
+                    el.style.width = el.getAttribute('aria-valuenow') + '%'; // Set the width based on the aria-valuenow attribute
+                });
+            }
+        });
+    });
+
     /**
      * Mobile nav toggle
      */

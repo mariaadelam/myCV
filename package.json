@@ -39,6 +39,7 @@
     "jquery": "^3.7.1",
     "mini-css-extract-plugin": "^2.9.2",
     "particles.js": "^2.0.0",
-    "typed.js": "^2.1.0"
+    "typed.js": "^2.1.0",
+    "waypoints": "^4.0.1"
   }
 }

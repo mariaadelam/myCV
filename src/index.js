@@ -12,4 +12,7 @@ import particles from 'particles.js'
 
 import './js/particles.js';
 
+// Import Waypoints for scroll animations
+import '../node_modules/waypoints/lib/noframework.waypoints.js'; 
+
 import './js/main.js';

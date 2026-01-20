@@ -19,6 +19,11 @@
 	}
 }
 
+// Animate progress bars on scroll
+.progress-bar {
+	transition: width 0.8s ease;
+}
+
 @media (min-width: 767px) {
 	.about-mf {
 		.box-pl2 {
@@ -42,6 +47,7 @@
 		.progress-bar {
 			height: 0.7rem;
 			background-color: $background-color_2;
+  			transition: width 1.5s ease-in-out; // Smooth transition for width change
 		}
 	}
 }

@@ -21250,6 +21250,10 @@ footer .credits a {
   margin-left: 10px;
 }
 
+.progress-bar {
+  transition: width 0.8s ease;
+}
+
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
@@ -21268,6 +21272,7 @@ footer .credits a {
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
   background-color: #cc005f;
+  transition: width 1.5s ease-in-out;
 }
 
 /*--------------------------------------------------------------
