@@ -433,13 +433,13 @@
     }
   }
   button[type="submit"] {
-    background: #0078ff;
+    background: linear-gradient(135deg, #009688, #4dd6c1);
     border: 0;
     padding: 10px 24px;
     color: $color_5;
     transition: 0.4s;
     &:hover {
-      background: #3393ff;
+      background: linear-gradient(135deg, #00796b, #26a69a);
     }
   }
 }

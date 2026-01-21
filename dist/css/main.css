@@ -20249,7 +20249,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #cc005f;
+  color: #2fc9b9;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -20260,7 +20260,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #cc005f;
+  color: #2fc9b9;
 }
 
 .color-d {
@@ -20748,7 +20748,7 @@ a:hover {
   min-width: 200px;
 }
 .navbar .dropdown ul li:hover > a {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
@@ -20760,10 +20760,10 @@ a:hover {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar .dropdown ul .active:hover {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -20838,7 +20838,7 @@ a:hover {
   color: #4e4e4e;
 }
 .navbar-mobile a:hover {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar-mobile a:hover:before {
   visibility: hidden;
@@ -20849,13 +20849,13 @@ a:hover {
   color: #4e4e4e;
 }
 .navbar-mobile li:hover > a {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar-mobile li:hover > a:before {
   visibility: hidden;
 }
 .navbar-mobile .active {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar-mobile .active:before {
   visibility: hidden;
@@ -20881,7 +20881,7 @@ a:hover {
   min-width: 200px;
 }
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
@@ -20890,10 +20890,10 @@ a:hover {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar-mobile .dropdown ul .active:hover {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -20956,7 +20956,7 @@ a:hover {
 }
 .hero-single .breadcrumb {
   background-color: transparent;
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .hero-single .breadcrumb .breadcrumb-item:before {
   color: #cde1f8;
@@ -21448,7 +21448,7 @@ footer .credits a {
   padding-left: 25px;
 }
 .box-comments .list-comments a {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .box-comments .list-comments span {
   color: #1e1e1e;
@@ -21473,7 +21473,7 @@ footer .credits a {
   margin-left: 15px;
 }
 .blog-wrapper .post-meta ul a {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .blog-wrapper .post-meta ul span {
   color: #1e1e1e;
@@ -21494,7 +21494,7 @@ footer .credits a {
   line-height: 2;
 }
 .list-ico span {
-  color: #cc005f;
+  color: #2fc9b9;
   margin-right: 10px;
 }
 
@@ -21619,15 +21619,15 @@ footer .credits a {
   font-size: 0.8rem;
 }
 .work-content .w-more .w-ctegory {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #cc005f;
+  color: #2fc9b9;
   float: right;
 }
 .work-content .w-like a {
-  color: #cc005f;
+  color: #2fc9b9;
 }
 .work-content .w-like .num-like {
   font-size: 0.7rem;
@@ -21708,7 +21708,7 @@ footer .credits a {
 }
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #cc005f;
+  color: #2fc9b9;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -21801,14 +21801,14 @@ footer .credits a {
   border-color: #009688;
 }
 .php-email-form button[type=submit] {
-  background: #0078ff;
+  background: linear-gradient(135deg, #009688, #4dd6c1);
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
 .php-email-form button[type=submit]:hover {
-  background: #3393ff;
+  background: linear-gradient(135deg, #00796b, #26a69a);
 }
 
 .post-box {
