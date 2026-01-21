@@ -20296,7 +20296,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #009999;
+  background-color: #2d6b6b;
   border-radius: 4px;
 }
 .card-blog .card-category .category {
@@ -20343,7 +20343,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #009999;
+  background-color: #2d6b6b;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 .service-box .service-ico {
@@ -20432,14 +20432,14 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #009999;
+  background-color: #2d6b6b;
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .display-table {
@@ -20492,7 +20492,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #009999;
+  background-color: #2d6b6b;
   margin: 0 auto;
 }
 
@@ -20508,7 +20508,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #009999;
+  background-color: #2d6b6b;
   width: 100px;
   bottom: -12px;
 }
@@ -20545,7 +20545,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #009999;
+  background-color: #2d6b6b;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -21211,7 +21211,7 @@ a:hover {
   transition: all 500ms ease;
 }
 .socials .ico-circle:hover {
-  background-color: #009999;
+  background-color: #2d6b6b;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -21262,6 +21262,7 @@ footer .credits a {
 }
 .skill-mf span {
   color: #4e4e4e;
+  font-weight: 600;
 }
 .skill-mf .progress {
   background-color: #cde1f8;
@@ -21271,7 +21272,7 @@ footer .credits a {
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #009999;
+  background-color: #2d6b6b;
   transition: width 1.5s ease-in-out;
 }
 
@@ -21347,7 +21348,7 @@ footer .credits a {
   border-color: #cde1f8;
 }
 .php-email-form button[type=submit] {
-  background: #0078ff;
+  background: #ff9900;
   border: 0;
   padding: 10px 24px;
   color: #4e4e4e;
@@ -21376,7 +21377,7 @@ footer .credits a {
 }
 .widget-tags ul li {
   display: inline-block;
-  background-color: #009999;
+  background-color: #2d6b6b;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
@@ -21405,7 +21406,7 @@ footer .credits a {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #009999;
+  background-color: #2d6b6b;
   top: 20px;
 }
 .widget-sidebar .sidebar-title {
@@ -21536,18 +21537,18 @@ footer .credits a {
 
 .button-a {
   text-decoration: none;
-  background-color: #009999;
+  background-color: #2d6b6b;
   color: #fff;
   border-color: #cde1f8;
 }
 
 .button-big {
-  padding: 0.9rem 2.3rem;
+  padding: 0.6rem 1.5rem;
   font-size: 1.2rem;
 }
 
 .button-rouded {
-  border-radius: 5rem;
+  border-radius: 0.5rem;
 }
 
 .btn-lg {
@@ -21579,7 +21580,7 @@ footer .credits a {
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #009999;
+  background-color: #2d6b6b;
 }
 
 .counter-box {
@@ -21654,7 +21655,7 @@ footer .credits a {
   border: 1px solid #0078ff;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #009999;
+  background-color: #2d6b6b;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -21828,7 +21829,7 @@ footer .credits a {
   transition: all 0.5s ease-in-out;
 }
 .sidebar-search .btn-search {
-  background-color: #009999;
+  background-color: #2d6b6b;
   border-color: #009688;
   border-radius: 0;
   padding-left: 20px;
