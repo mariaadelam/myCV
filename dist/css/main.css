@@ -20631,12 +20631,15 @@ a:hover {
   color: #fff;
 }
 #header .logo img {
-  max-height: 70px;
+  max-height: 40px;
 }
 
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
+}
+#header.header-scrolled a {
+  color: #2fc9b9;
 }
 
 .navbar {
@@ -20798,10 +20801,16 @@ a:hover {
   .navbar ul {
     display: none;
   }
+  #header.header-scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 12px 0;
+  }
+  #header.header-scrolled a {
+    color: #1e1e1e;
+  }
 }
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
@@ -20827,6 +20836,8 @@ a:hover {
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
+  height: -moz-fit-content;
+  height: fit-content;
   transition: 0.3s;
 }
 .navbar-mobile > ul > li {
@@ -20838,7 +20849,7 @@ a:hover {
   color: #4e4e4e;
 }
 .navbar-mobile a:hover {
-  color: #2fc9b9;
+  color: #fff;
 }
 .navbar-mobile a:hover:before {
   visibility: hidden;
@@ -20849,16 +20860,16 @@ a:hover {
   color: #4e4e4e;
 }
 .navbar-mobile li:hover > a {
-  color: #2fc9b9;
+  color: #fff;
 }
 .navbar-mobile li:hover > a:before {
   visibility: hidden;
 }
 .navbar-mobile .active {
-  color: #2fc9b9;
+  color: #fff;
 }
 .navbar-mobile .active:before {
-  visibility: hidden;
+  visibility: visible;
 }
 .navbar-mobile .getstarted {
   margin: 15px;
@@ -20881,7 +20892,7 @@ a:hover {
   min-width: 200px;
 }
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #2fc9b9;
+  color: #fff;
 }
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
@@ -20890,15 +20901,23 @@ a:hover {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover {
-  color: #2fc9b9;
+  color: #fff;
 }
 .navbar-mobile .dropdown ul .active:hover {
-  color: #2fc9b9;
+  color: #fff;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
