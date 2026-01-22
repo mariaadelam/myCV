@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adela Mag - SW Engineer</title>
-<link rel="icon" href="favicon.ico?d0efb7036213882d529d"><link href="css/main.css?d0efb7036213882d529d" rel="stylesheet"></head>
+<link rel="icon" href="favicon.ico?40bfaef1b866595107e2"><link href="css/main.css?40bfaef1b866595107e2" rel="stylesheet"></head>
 
 <body>
     <!-- ======= Header ======= -->
@@ -172,30 +172,40 @@
                                     </h5>
                                 </div>
                                 <div>
-                                    <form action="https://formspree.io/f/mqeenlnd" method="post" role="form" class="php-email-form">
+                                    <form action="https://formspree.io/f/mqeenlnd" method="post" role="form" class="php-email-form needs-validation" novalidate>
                                         <div class="row">
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="text" name="name" class="form-control" id="name"
                                                         placeholder="Your Name" required>
+                                                        <div class="valid-feedback">Looks good!</div>
+                                                        <div class="invalid-feedback">Please provide your name.</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="email" class="form-control" name="email" id="email"
                                                         placeholder="Your Email" required>
+                                                        <div class="valid-feedback">Valid email.</div>
+                                                        <div class="invalid-feedback">Please enter a valid email address.</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" name="subject" id="subject"
-                                                        placeholder="Subject" required>
+                                                        placeholder="Subject" required minlength="5">
+                                                        <div class="valid-feedback">Perfect!</div>
+                                                        <div class="invalid-feedback">Subject must be at least 5 characters.</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <textarea class="form-control" name="message" rows="5"
-                                                        placeholder="Message" required></textarea>
+                                                        placeholder="Message" required minlength="10" maxlength="500"></textarea>
+                                                        <div class="valid-feedback">Message looks good.</div>
+                                                        <div class="invalid-feedback">
+                                                            Message must be between 10 and 500 characters.
+                                                        </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 text-center my-3">
@@ -287,6 +297,6 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
     class="bi bi-arrow-up-short"></i></a>
 
-<script defer src="js/main.bundle.js?d0efb7036213882d529d"></script></body>
+<script defer src="js/main.bundle.js?40bfaef1b866595107e2"></script></body>
 
 </html>
