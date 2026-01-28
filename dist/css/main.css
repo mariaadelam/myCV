@@ -20631,7 +20631,7 @@ a:hover {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 #header.header-scrolled {
@@ -20869,7 +20869,7 @@ a:hover {
   color: #fff;
 }
 .navbar-mobile .active:before {
-  visibility: visible;
+  visibility: hidden;
 }
 .navbar-mobile .getstarted {
   margin: 15px;
