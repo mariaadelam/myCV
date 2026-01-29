@@ -5,7 +5,8 @@
 |----------------------------------------------------------------------------
 */
 
-$font-family_1: fontAwesome;
+$font-family_1: "Roboto", Helvetica, Arial, sans-serif;
+$font-family_2: "Montserrat", sans-serif;
 $border-color_1: rgba(255, 255, 255, 0.3);
 $border-color_2: #cc005f;
 
@@ -45,6 +46,7 @@ $heart: #fb866a;
 $dm-background: #17191c;
 $dm-text-color: rgba(256, 256, 256, 0.9);
 $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
+$vueColor: #00a79d;
 
 //*************************** Theme Styles ****************************/
 // Import theme styles
