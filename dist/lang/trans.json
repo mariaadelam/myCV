@@ -1,0 +1,21 @@
+{
+    "title": "Adela Mag - SW Engineer",
+    "menu.home": "Home",
+    "menu.about": "About",
+    "menu.experience": "Experience",
+    "menu.portfolio": "Portfolio",
+    "menu.github": "My GitHub",
+    "menu.contact": "Contact",
+    "banner.greeting": "Hi!",
+    "banner.intro": "I am Adela",
+    "banner.more": "More About Me ",
+    "about.name": "Name: ",
+    "about.profile": "Profile: ",
+    "about.email": "Email: ",
+    "about.linkedin": "Click here!",
+    "about.skills": "Skills",
+    "about.me": "About me",
+    "about.first": "Software engineer with experience in Model-Based Testing in the automotive industry, focused on validation, verification, and software quality for complex systems.",
+    "about.second": "Passionate about creating clean and responsive user interfaces using JavaScript, HTML, and CSS. Comfortable with modern build tools like Webpack and familiar with backend fundamentals, including Node.js and client–server communication.",
+    "about.third": "Open to opportunities in both software and hardware, creating efficient and reliable solutions."
+}

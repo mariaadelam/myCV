@@ -1,0 +1,21 @@
+{
+  "title": "Adela Mag - Inginer SW",
+  "menu.home": "Acasă",
+  "menu.about": "Despre",
+  "menu.experience": "Experienţă",
+  "menu.portfolio": "Portofoliu",
+  "menu.github": "GitHub-ul meu",
+  "menu.contact": "Contact",
+  "banner.greeting": "Salut!",
+  "banner.intro": "Sunt Adela",
+  "banner.more": "Mai multe despre mine ",
+   "about.name": "Nume: ",
+    "about.profile": "Profil: ",
+    "about.email": "Email: ",
+    "about.linkedin": "Apasă aici!",
+    "about.skills": "Competențe",
+    "about.me": "Despre mine",
+    "about.first": "Inginer software cu experiență în industria auto ca Model-Based Tester, cu accent pe validarea, verificarea și calitatea software-ului pentru sisteme complexe.",
+    "about.second": "Pasionată de crearea de interfețe utilizator responsive și intuitive folosind JavaScript, HTML și CSS. Familiară cu tool-uri moderne de build precum Webpack și cu elemente de bază pe partea de backend, inclusiv Node.js și comunicarea client–server.",
+    "about.third": "Deschisă pentru oportunități atât în software, cât și în hardware, creând soluții eficiente și fiabile."
+}

@@ -15,5 +15,6 @@ import './js/particles.js';
 // Import Waypoints for scroll animations
 import '../node_modules/waypoints/lib/noframework.waypoints.js'; 
 
+import './js/translate.js';
 import './js/main.js';
 import './js/githubapi.js';

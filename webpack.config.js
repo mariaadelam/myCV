@@ -76,14 +76,14 @@ module.exports = {
             ignore: ['*.DS_Store', 'Thumbs.db'], // Ignore unnecessary files
           },
         },
-        // {
-        //   from: path.resolve(paths.source, 'lang'), // Source directory for language files
-        //   to: path.resolve(paths.output, 'lang'), // Destination directory for language files
-        //   toType: 'dir',
-        //   globOptions: {
-        //     ignore: ['*.DS_Store', 'Thumbs.db'], // Ignore unnecessary files
-        //   },
-        // },
+        {
+          from: path.resolve(paths.source, 'lang'), // Source directory for language files
+          to: path.resolve(paths.output, 'lang'), // Destination directory for language files
+          toType: 'dir',
+          globOptions: {
+            ignore: ['*.DS_Store', 'Thumbs.db'], // Ignore unnecessary files
+          },
+        },
         // Uncomment the following block to copy video files
         // {
         //     from: path.resolve(paths.source, 'videos'),
