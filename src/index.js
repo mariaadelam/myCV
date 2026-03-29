@@ -16,5 +16,6 @@ import './js/particles.js';
 import '../node_modules/waypoints/lib/noframework.waypoints.js'; 
 
 import './js/translate.js';
+import './js/glightbox.js';
 import './js/main.js';
 import './js/githubapi.js';
