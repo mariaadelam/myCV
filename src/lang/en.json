@@ -97,5 +97,19 @@
     "portfolio.circle_animation.category": "CSS Animation",
     "portfolio.circle_animation.date": "12 February 2025",
     "githubapi.title": "My GitHub Repo",
-    "githubapi.subtitle": "The latest GitHub Repo"
+    "githubapi.subtitle": "The latest GitHub Repo",
+    "contact.message": "Send Me a Message",
+    "contact.name.valid": "Looks good!",
+    "contact.name.invalid": "Please provide your name.",
+    "contact.email.valid": "Valid email.",
+    "contact.email.invalid": "Please enter a valid email address.",
+    "contact.subject.valid": "Perfect!",
+    "contact.subject.invalid": "Subject must be at least 5 characters.",
+    "contact.message.valid": "Message looks good.",
+    "contact.message.invalid": "Message must be between 10 and 500 characters.",
+    "contact.loading": "Loading",
+    "contact.sent": "Your message has been sent. Thank you!",
+    "contact.submit": "Send Message",
+    "contact.title": "Contact Me",
+    "contact.description": "Interested in working together or think I'm a good fit for your team? Let's get in touch."
 }

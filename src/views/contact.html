@@ -10,7 +10,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="title-box-2">
-                                    <h5 class="title-left">
+                                    <h5 class="title-left" data-tr="contact.message">
                                         Send Me a Message
                                     </h5>
                                 </div>
@@ -19,46 +19,46 @@
                                         <div class="row">
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
-                                                    <input type="text" name="name" class="form-control" id="name"
+                                                    <input type="text" name="name" class="form-control" id="name" data-attr-tr="contact.name.placeholder"
                                                         placeholder="Your Name" required autocomplete="name">
-                                                        <div class="valid-feedback">Looks good!</div>
-                                                        <div class="invalid-feedback">Please provide your name.</div>
+                                                        <div class="valid-feedback" data-tr="contact.name.valid">Looks good!</div>
+                                                        <div class="invalid-feedback" data-tr="contact.name.invalid">Please provide your name.</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="email" class="form-control" name="email" id="email"
                                                         placeholder="Your Email" required autocomplete="email">
-                                                        <div class="valid-feedback">Valid email.</div>
-                                                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                                                        <div class="valid-feedback" data-tr="contact.email.valid">Valid email.</div>
+                                                        <div class="invalid-feedback" data-tr="contact.email.invalid">Please enter a valid email address.</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" name="subject" id="subject"
                                                         placeholder="Subject" required minlength="5">
-                                                        <div class="valid-feedback">Perfect!</div>
-                                                        <div class="invalid-feedback">Subject must be at least 5 characters.</div>
+                                                        <div class="valid-feedback" data-tr="contact.subject.valid">Perfect!</div>
+                                                        <div class="invalid-feedback" data-tr="contact.subject.invalid">Subject must be at least 5 characters.</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <textarea class="form-control" name="message" rows="5"
                                                         placeholder="Message" required minlength="10" maxlength="500"></textarea>
-                                                        <div class="valid-feedback">Message looks good.</div>
-                                                        <div class="invalid-feedback">
+                                                        <div class="valid-feedback" data-tr="contact.message.valid">Message looks good.</div>
+                                                        <div class="invalid-feedback" data-tr="contact.message.invalid">
                                                             Message must be between 10 and 500 characters.
                                                         </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 text-center my-3">
-                                                <div class="loading">Loading</div>
+                                                <div class="loading" data-tr="contact.loading">Loading</div>
                                                 <div class="error-message"></div>
-                                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                                <div class="sent-message" data-tr="contact.sent">Your message has been sent. Thank you!</div>
                                             </div>
                                             <div class="col-md-12 text-center">
                                                 <button type="submit"
-                                                    class="button button-a button-big button-rouded">Send Message
+                                                    class="button button-a button-big button-rouded" data-tr="contact.submit">Send Message
                                                 </button>
                                             </div>
                                         </div>
@@ -67,12 +67,12 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="title-box-2 pt-4 pt-md-0">
-                                    <h5 class="title-left">
+                                    <h5 class="title-left" data-tr="contact.title">
                                         Contact Me
                                     </h5>
                                 </div>
                                 <div class="more-info">
-                                    <p class="lead">
+                                    <p class="lead" data-tr="contact.description">
                                         Interested in working together or think I'm a good fit for your team? Let's get in touch.
                                     </p>
                                     <ul class="list-ico">
