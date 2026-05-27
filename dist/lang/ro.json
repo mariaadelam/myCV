@@ -114,5 +114,7 @@
   "contact.name.placeholder": "Numele tău",
   "contact.email.placeholder": "Emailul tău",
   "contact.subject.placeholder": "Subiect",
-  "contact.message.placeholder": "Mesaj"
+  "contact.message.placeholder": "Mesaj",
+  "footer.copyright": "© Drepturi de Autor <strong>Adela Mag</strong>. Toate Drepturile rezervate",
+  "footer.credits": "Realizat de <a href=\"#\">Adela Mag</a>"
 }
