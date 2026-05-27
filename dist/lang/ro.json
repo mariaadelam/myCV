@@ -57,7 +57,7 @@
   "portfolio.my_cv.part4": "CV-ul meu",
   "portfolio.my_cv.category": "Dezvoltare web",
   "portfolio.my_cv.date": "În dezvoltare",
-  "portfolio.flowershop.title": "Online Flowershop - One page project",
+  "portfolio.flowershop.title": "Florărie online - Proiect one page",
   "portfolio.flowershop.part1": "Acesta este un site modern de florărie online, cu un design responsive. Site-ul folosește Vite pentru dezvoltare rapidă și Bootstrap pentru stilizare.",
   "portfolio.flowershop.part2": "Include animații cu AOS atunci când derulezi pagina. Există și un mod întunecat (dark mode) pe care utilizatorii îl pot activa sau dezactiva.",
   "portfolio.flowershop.part3": "Website-ul are următoarele secțiuni: Acasă, Despre, Planuri, Servicii, Portofoliu, Testimoniale, Contact.",
@@ -110,5 +110,9 @@
   "contact.sent": "Mesajul tău a fost trimis. Mulțumesc!",
   "contact.submit": "Trimite Mesaj",
   "contact.title": "Contactează-mă",
-  "contact.description": "Interesat de a lucra împreună sau crezi că sunt un candidat potrivit pentru echipa ta? Hai să luăm legătura."
+  "contact.description": "Interesat de a lucra împreună sau crezi că sunt un candidat potrivit pentru echipa ta? Hai să luăm legătura.",
+  "contact.name.placeholder": "Numele tău",
+  "contact.email.placeholder": "Emailul tău",
+  "contact.subject.placeholder": "Subiect",
+  "contact.message.placeholder": "Mesaj"
 }

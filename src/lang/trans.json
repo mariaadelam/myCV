@@ -8,7 +8,7 @@
     "menu.contact": "Contact",
     "banner.greeting": "Hi!",
     "banner.intro": "I am Adela",
-    "banner.more": "More About Me ",
+    "banner.more": "More About Me <i class=\"bi bi-arrow-bar-down\"></i>",
     "about.name": "Name: ",
     "about.profile": "Profile: ",
     "about.email": "Email: ",
@@ -70,8 +70,8 @@
     "portfolio.phonebook.title": "Phonebook App",
     "portfolio.phonebook.part1": "The Phonebook Application is a JavaScript-based web application that allows users to store, display, and manage contact information. The application enables users to save names along with their corresponding phone numbers and view them in an organized list.",
     "portfolio.phonebook.part2": "The user interface is divided into two main sections:",
-    "portfolio.phonebook.feature1": " A form for adding new contacts, which includes input fields for the contact's name and phone number, along with a submit button.",
-    "portfolio.phonebook.feature2": " A list that displays all saved contacts in a clear and organized manner.",
+    "portfolio.phonebook.feature1": "A form for adding new contacts, which includes input fields for the contact's name and phone number, along with a submit button.",
+    "portfolio.phonebook.feature2": "A list that displays all saved contacts in a clear and organized manner.",
     "portfolio.phonebook.part3": "The Phonebook Application is implemented using React, with Vite used as the development and build tool.",
     "portfolio.phonebook.demo": "Live Demo",
     "portfolio.phonebook.category": "Application Development",
@@ -111,5 +111,9 @@
     "contact.sent": "Your message has been sent. Thank you!",
     "contact.submit": "Send Message",
     "contact.title": "Contact Me",
-    "contact.description": "Interested in working together or think I'm a good fit for your team? Let's get in touch."
+    "contact.description": "Interested in working together or think I'm a good fit for your team? Let's get in touch.",
+    "contact.name.placeholder": "Your Name",
+    "contact.email.placeholder": "Your Email",
+    "contact.subject.placeholder": "Subject",
+    "contact.message.placeholder": "Message"
 }
