@@ -84,9 +84,10 @@ import GLightbox from 'glightbox';
     if (selectHeader) {
         const headerScrolled = () => {
             if (window.scrollY > 100) {
-                selectHeader.classList.add('header-scrolled')
+                selectHeader.classList.add('header-scrolled')            
             } else {
-                selectHeader.classList.remove('header-scrolled')
+                selectHeader.classList.remove('header-scrolled');
+
             }
         }
         window.addEventListener('load', headerScrolled)
@@ -177,19 +178,23 @@ import GLightbox from 'glightbox';
     /**
      * Intro type effect
      */
+    setTimeout(function () {
+        // const typed = select('.typed')
+        const typed = document.getElementById('typed');
+        if (typed) {
 
-    const typed = select('.typed')
-    if (typed) {
-        let typed_strings = typed.getAttribute('data-typed-items')
-        typed_strings = typed_strings.split(',')
-        new Typed('.typed', {
-            strings: typed_strings,
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 50,
-            backDelay: 2000
-        });
-    }
+            let typed_strings = typed.getAttribute('data-typed-items');
+            console.log('typed', typed_strings)
+            typed_strings = typed_strings.split(',')
+            new Typed('.typed', {
+                strings: typed_strings,
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 50,
+                backDelay: 2000
+            });
+        }
+    }, 2000);
 
     /**
      * Initiate portfolio lightbox 
@@ -197,41 +202,6 @@ import GLightbox from 'glightbox';
     const portfolioLightbox = GLightbox({
         selector: '.portfolio-lightbox'
     });
-
-    /**
-     * Testimonials slider
-     */
-    // new Swiper('.testimonials-slider', {
-    //   speed: 600,
-    //   loop: true,
-    //   autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false
-    //   },
-    //   slidesPerView: 'auto',
-    //   pagination: {
-    //     el: '.swiper-pagination',
-    //     type: 'bullets',
-    //     clickable: true
-    //   }
-    // });
-
-    /**
-     * Portfolio details slider
-     */
-    // new Swiper('.portfolio-details-slider', {
-    //   speed: 400,
-    //   loop: true,
-    //   autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false
-    //   },
-    //   pagination: {
-    //     el: '.swiper-pagination',
-    //     type: 'bullets',
-    //     clickable: true
-    //   }
-    // });
 
     /**
      * Preloader
