@@ -5,9 +5,9 @@
 --------------------------------------------------------------*/
 footer {
     text-align: center;
-    color: $color_5;
+    color: var(--color_5);
     padding: 25px 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: var(--bg-footer);
 
     .copyright {
         margin-bottom: 0.3rem;
@@ -17,7 +17,7 @@ footer {
         margin-bottom: 0;
 
         a {
-            color: $color_5;
+            color: var(--color_5);
         }
     }
 }

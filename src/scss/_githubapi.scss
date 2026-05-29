@@ -4,21 +4,21 @@
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: $background-color_1;
+  background-color: var(--background-color_1);
   padding: 2.5rem 1.3rem;
   margin-bottom: 3rem;
   text-align: center;
   &:hover {
     .ico-circle {
       transition: all 500ms ease;
-      color: $color_1;
-      background-color: $background-color_2;
-      box-shadow: 0 0 0 10px #cde1f8;
+      color: var(--color_1);
+      background-color: var(--background-color_2);
+      box-shadow: 0 0 0 10px var(--border-color_1);
     }
   }
   .service-ico {
     margin-bottom: 1rem;
-    color: $color_2;
+    color: var(--color_2);
   }
   .ico-circle {
     transition: all 500ms ease;
@@ -37,7 +37,7 @@
     padding: 0.4rem 0;
   }
   .s-description {
-    color: $vueColor;
+    color: var(--vueColor);
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box; /* Use flexbox to create a multi-line truncation effect */

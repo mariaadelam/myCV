@@ -15,7 +15,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     a {
-      color: $color_5;
+      color: var(--color_5);
     }
     img {
       max-height: 50px; 
@@ -23,10 +23,10 @@
   }
 }
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: var(--background-color_7);
   padding: 12px 0;
   a {
-    color: $color_3;
+    color: var(--color_3);
   }
 }
 .navbar {
@@ -46,7 +46,7 @@
           visibility: visible;
           width: 80%;
         }
-        color: $color_5;
+        color: var(--color_5);
       }
     }
   }
@@ -63,7 +63,7 @@
           bottom: -6px;
           left: 0;
           width: 0;
-          background-color: $background-color_3;
+          background-color: var(--background-color_3);
           visibility: hidden;
           transition: all 0.3s ease-in-out 0s;
         }
@@ -74,7 +74,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: $color_5;
+    color: var(--color_5);
     font-size: 16px;
     font-weight: 600;
     padding: 0;
@@ -87,7 +87,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      color: $color_5;
+      color: var(--color_5);
       font-size: 16px;
       font-weight: 600;
       padding: 0;
@@ -112,7 +112,7 @@
         visibility: visible;
         width: 80%;
       }
-      color: $color_5;
+      color: var(--color_5);
     }
   }
   .active {
@@ -120,9 +120,9 @@
       visibility: visible;
       width: 80%;
     }
-    color: $color_5;
+    color: var(--color_5);
     &:focus {
-      color: $color_5;
+      color: var(--color_5);
     }
   }
   .dropdown {
@@ -136,14 +136,14 @@
       z-index: 99;
       opacity: 0;
       visibility: hidden;
-      background: #fff;
-      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+      background: var(--background-color_3);
+      box-shadow: 0px 0px 30px var(--box-shadow_1);
       transition: 0.3s;
       li {
         min-width: 200px;
         &:hover {
           > a {
-            color: $color_3;
+            color: var(--color_3);
           }
         }
       }
@@ -151,17 +151,17 @@
         padding: 10px 20px;
         font-size: 14px;
         text-transform: none;
-        color: $color_1;
+        color: var(--color_1);
         i {
           font-size: 12px;
         }
         &:hover {
-          color: $color_3;
+          color: var(--color_3);
         }
       }
       .active {
         &:hover {
-          color: $color_3;
+          color: var(--color_3);
         }
       }
     }
@@ -190,7 +190,7 @@
   }
 }
 .mobile-nav-toggle {
-  color: $color_5;
+  color: var(--color_5);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -208,10 +208,10 @@
   }
 
   #header.header-scrolled {
-    background: rgba(0, 0, 0, 0.9);
+    background: var(--background-color_7);
     padding: 12px 0;
     a {
-      color: $color_2;
+      color: var(--color_2);
     }
   }
 }
@@ -222,7 +222,7 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 78, 78, 0.9);
+  background: var(--background-color_7);
   transition: 0.3s;
   z-index: 999;
   height: fit-content;
@@ -240,7 +240,7 @@
     bottom: 15px;
     left: 15px;
     padding: 10px 0;
-    background-color: $background-color_3;
+    background-color: var(--background-color_3);
     overflow-y: auto;
     height: fit-content;
     transition: 0.3s;
@@ -255,15 +255,15 @@
       &:before {
         visibility: hidden;
       }
-      color: $color_5;
+      color: var(--color_5);
     }
     padding: 10px 20px;
     font-size: 15px;
-    color: $color_1;
+    color: var(--color_1);
     &:focus {
       padding: 10px 20px;
       font-size: 15px;
-      color: $color_1;
+      color: var(--color_1);
     }
   }
   li {
@@ -272,7 +272,7 @@
         &:before {
           visibility: hidden;
         }
-        color: $color_5;
+        color: var(--color_5);
       }
     }
   }
@@ -280,7 +280,7 @@
     &:before {
       visibility: hidden; 
     }
-    color: $color_5;
+    color: var(--color_5);
   }
   .getstarted {
     margin: 15px;
@@ -298,12 +298,12 @@
       opacity: 1;
       visibility: visible;
       background: #fff;
-      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+      box-shadow: 0px 0px 30px var(--box-shadow_1);
       li {
         min-width: 200px;
         &:hover {
           > a {
-            color: $color_5;
+            color: var(--color_5);
           }
         }
       }
@@ -313,12 +313,12 @@
           font-size: 12px;
         }
         &:hover {
-          color: $color_5;
+          color: var(--color_5);
         }
       }
       .active {
         &:hover {
-          color: $color_5;
+          color: var(--color_5);
         }
       }
     }

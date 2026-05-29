@@ -35,19 +35,19 @@
 
 .skill-mf {
 	span {
-		color: $color_1;
+		color: var(--color_1);
 		font-weight: 600;
 	}
 
 	.progress {
-		background-color: $background-color_4;
+		background-color: var(--background-color_4);
 		margin: 0.5rem 0 1.2rem 0;
 		border-radius: 0;
 		height: 0.7rem;
 
 		.progress-bar {
 			height: 0.7rem;
-			background-color: $background-color_2;
+			background-color: var(--background-color_2);
   			transition: width 1.5s ease-in-out; // Smooth transition for width change
 		}
 	}
