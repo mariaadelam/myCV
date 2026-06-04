@@ -241,9 +241,6 @@ import GLightbox from 'glightbox';
         });
       })();
 
-    /**
-     * Initiate Pure Counter 
-     */
-    // new PureCounter();
+
 
 })()

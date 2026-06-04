@@ -297,7 +297,7 @@
       z-index: 99;
       opacity: 1;
       visibility: visible;
-      background: #fff;
+      background: var(--background-color_3);
       box-shadow: 0px 0px 30px var(--box-shadow_1);
       li {
         min-width: 200px;

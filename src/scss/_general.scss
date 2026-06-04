@@ -35,6 +35,11 @@
 
   --box-shadow: rgba(0, 0, 0, 0.1);
   --box-shadow_1: rgba(127, 137, 161, 0.25);
+  --box-shadow_2: #27cc9b;
+  --box-shadow_3: #95dad6;
+  --box-shadow_4: rgba(0, 0, 0, 0.06);
+  --box-shadow_5: rgba(0, 0, 0, 0.2);
+  
  
 --alert-error: #ed3c0d;
 --alert-success: #18d26e;
@@ -52,7 +57,7 @@
   // --smoky-white: #f5f5f5;
   // --background: #dae3e7;
   // --heart: #fb866a;
-  // --dm-background: #17191c;
+  --dm-background: rgba(78, 78, 78, 0.08);
   // --dm-text-color: rgba(256, 256, 256, 0.9);
   // --dm-text-color-secondary: rgba(256, 256, 256, 0.7);
 
@@ -242,12 +247,12 @@ a {
 }
 .box-shadow-a {
   text-decoration: none;
-  box-shadow: 0 0 0 3px #27cc9b;
+  box-shadow: 0 0 0 3px var(--box-shadow_2);
 }
 .button {
   &:hover {
     text-decoration: none;
-    box-shadow: 0 0 0 3px #95dad6;
+    box-shadow: 0 0 0 3px var(--box-shadow_3);
     background-color: var(--background-color_6);
     color: var(--color_5);
     transition: all 500ms ease;
@@ -368,5 +373,5 @@ a {
   background-color: var(--background-color_3);
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px 0 var(--box-shadow_4), 0 2px 5px 0 var(--box-shadow_5);
 }
